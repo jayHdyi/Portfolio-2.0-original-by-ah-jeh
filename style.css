@@ -5,14 +5,6 @@ body{
     background: linear-gradient(to right, #8b8981, #393636);
 }
 
-@media (max-width: 768px)  {
-    body {
-        display: flex;
-        flex-direction:  column;
-        gap: 10px;
-    }
-}
-
 html {
   scroll-behavior: smooth;
 }
@@ -116,6 +108,10 @@ nav ul li a:hover {
 }
 
 @media (max-width: 768px) {
+    .navbar{
+        padding: 10px 20px 10px 30px;
+        width: 95%;
+    }
     .nav-links {
         display: none;
     }

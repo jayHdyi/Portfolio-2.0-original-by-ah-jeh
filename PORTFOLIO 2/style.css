@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #ffffff;
+  color: #333;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.navbar .logo {
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.logo span {
+  color: #ff7a00;
+}
+
+.navbar nav a {
+  margin: 0 15px;
+  text-decoration: underline;
+  color: #333;
+  font-weight: 500;
+}
+.navbar nav a:hover {
+  color: #ff7a00;
+}
+
+
+
+.hero {
+  display: flex;
+  padding: 45px;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(135deg, #ffe1c7, #fffdf9);
+}
+.hero-text h1 {
+  font-size: 2.5rem;
+  max-width: 500px;
+}
+
+.btn-primary {
+  margin-top: 20px;
+  background-color: #ff7a00;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #e66a00;
+  color: #333;
+  box-shadow: rgb(238, 187, 45) 0px 5px 15px;
+  transition: all 0.3s ease-in-out;
+}
+
+.popular {
+  padding: 40px;
+  background-color: #fff;
+}
+
+.popular h2 {
+  margin-bottom: 20px;
+}
+
+.card-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #fafafa;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  padding: 20px;
+  width: 220px;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.featured-anime {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffead2;
+  padding: 40px;
+}
+
+.featured-anime .content {
+  max-width: 500px;
+}
+
+.btn-secondary {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+.rating {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #ff7a00;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #eee;
+}
